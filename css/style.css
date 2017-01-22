@@ -1,0 +1,18 @@
+#picturizer, #baseline{
+    border: solid 1px rgba(255,255,255,0.85);
+    position: absolute;
+    z-index:-1;
+  transform-origin: 0% 0% 0px;
+transform: scale(0.5);
+}
+
+#picturizer{
+z-index: 1000;
+}
+
+#btn-start{
+  position:absolute;
+  z-index:2000;
+  transform-origin: 0% 0% 0px;
+transform: scale(0.5);
+}
